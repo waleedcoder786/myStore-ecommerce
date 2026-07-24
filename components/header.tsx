@@ -98,16 +98,16 @@ export function Header() {
 
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-1">
-          <Button variant="ghost" size="sm" asChild className="text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+          <Button variant="ghost" size="sm" asChild className="text-slate-700 dark:text-slate-300 hover:bg-blue-500 hover:text-white dark:hover:bg-slate-800">
             <Link href="/">Home</Link>
           </Button>
-          <Button variant="ghost" size="sm" asChild className="text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+          <Button variant="ghost" size="sm" asChild className="text-slate-700 dark:text-slate-300 hover:bg-blue-500 dark:hover:bg-slate-800">
             <Link href="/shop">Shop</Link>
           </Button>
-          <Button variant="ghost" size="sm" asChild className="text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+          <Button variant="ghost" size="sm" asChild className="text-slate-700 dark:text-slate-300 hover:bg-blue-500 dark:hover:bg-slate-800">
             <Link href="/about">About</Link>
           </Button>
-          <Button variant="ghost" size="sm" asChild className="text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+          <Button variant="ghost" size="sm" asChild className="text-slate-700 dark:text-slate-300 hover:bg-blue-500 dark:hover:bg-slate-800">
             <Link href="/contact">Contact</Link>
           </Button>
         </nav>
