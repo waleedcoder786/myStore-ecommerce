@@ -97,7 +97,7 @@ export function Header() {
         </div>
 
         {/* Navigation */}
-        <nav className="hidden md:flex items-center gap-1">
+        <nav className="hidden md:flex items-center gap-1">   
           <Button variant="ghost" size="sm" asChild className="text-slate-700 dark:text-slate-300 hover:bg-blue-500 hover:text-white dark:hover:bg-slate-800">
             <Link href="/">Home</Link>
           </Button>
@@ -116,21 +116,21 @@ export function Header() {
         <nav className="flex items-center gap-2">
           <ThemeToggle />
           
-          <Button variant="ghost" size="icon" asChild className="text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+          <Button variant="ghost" size="icon" asChild className="text-slate-700 dark:text-slate-300 hover:bg-blue-500 dark:hover:bg-slate-800">
             <Link href="#wishlist">
               <Heart className="h-5 w-5" />
               <span className="sr-only">Wishlist</span>
             </Link>
           </Button>
 
-          <Button variant="ghost" size="icon" asChild className="text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+          <Button variant="ghost" size="icon" asChild className="text-slate-700 dark:text-slate-300 hover:bg-blue-500 dark:hover:bg-slate-800">
             <Link href="/orders">
               <Package className="h-5 w-5" />
               <span className="sr-only">Orders</span>
             </Link>
           </Button>
 
-          <Button variant="ghost" size="icon" asChild className="relative text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+          <Button variant="ghost" size="icon" asChild className="relative text-slate-700 dark:text-slate-300 hover:bg-blue-500 dark:hover:bg-slate-800">
             <Link href="/cart">
               <ShoppingCart className="h-5 w-5" />
               {totalItems > 0 && (
@@ -144,7 +144,7 @@ export function Header() {
 
           {user ? (
             <>
-              <Button variant="ghost" size="sm" asChild className="text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center gap-1">
+              <Button variant="ghost" size="sm" asChild className="text-slate-700 dark:text-slate-300 hover:bg-blue-500 dark:hover:bg-slate-800 flex items-center gap-1">
                 <Link href="/profile">
                   <User className="h-4 w-4" />
                   <span className="hidden sm:inline text-xs">{user.name}</span>
@@ -162,7 +162,7 @@ export function Header() {
             </>
           ) : (
             <>
-              <Button variant="ghost" size="sm" asChild className="text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+              <Button variant="ghost" size="sm" asChild className="text-slate-700 dark:text-slate-300 hover:bg-blue-500 dark:hover:bg-slate-800">
                 <Link href="/login">Login</Link>
               </Button>
               <Button size="sm" asChild className="bg-blue-600 hover:bg-blue-700 text-white">
