@@ -2,6 +2,7 @@ export interface Product {
   id: string
   title: string
   price: number
+  priceInCents: number
   description: string
   category: string
   image: string
@@ -16,6 +17,7 @@ export const products: Product[] = [
     id: "13",
     title: "Shirts",
     price: 1.59,
+    priceInCents: 159,
     description: "New Women's Summer Loose Korean Edition Used Clothes",
     category: "cloth",
     image: "https://s.alicdn.com/@sc04/kf/A6518cd6b22544126a3f5f889f03d06b90.png_720x720q50.jpg",
@@ -33,6 +35,7 @@ export const products: Product[] = [
     id: "18",
     title: "Trendy Women's Two-Piece",
     price: 29,
+    priceInCents: 2900,
     description: "Trendy Women's Two-Piece Co-Ord Set - Comfortable and Fashionable Matching Outfit for All Occasions",
     category: "cloth",
     image: "https://s.alicdn.com/@sc04/kf/A069d1f19f23349179bc67ca60ee85d63L.jpg_720x720q50.jpg",
@@ -50,6 +53,7 @@ export const products: Product[] = [
     id: "38",
     title: "Strips Lamp for Gaming Room Neon",
     price: 5.3,
+    priceInCents: 530,
     description:
       "Smart APP Control RGBIC LED Neon Light Strips 5V USB IP65 Waterproof Full Kit Strips Lamp for Gaming Room Neon Sign",
     category: "electronics",
@@ -67,6 +71,7 @@ export const products: Product[] = [
     id: "1",
     title: "IPhone 13 pro",
     price: 345,
+    priceInCents: 34500,
     description:
       "High Quality For phone 13 Pro Max Second Hand Mobile Phones Original Unlocked No Scratch Used Smart Mobile phone",
     category: "phone",
@@ -85,6 +90,7 @@ export const products: Product[] = [
     id: "22",
     title: "Men shoes",
     price: 11,
+    priceInCents: 1100,
     description:
       "New Board shoes for Men Breathable Casual Versatile and Trendy High Top Leather Face Comfortable Sports Thick Soled Sneakers",
     category: "shoes",
@@ -102,6 +108,7 @@ export const products: Product[] = [
     id: "15",
     title: "Women's Scoop Neck",
     price: 1.5,
+    priceInCents: 150,
     description: "T742 Women's Scoop Neck Short/Long Sleeve Tees Cotton Cheap T Shirts Blouses Tops for Women",
     category: "cloth",
     image: "https://s.alicdn.com/@sc04/kf/H6563f293b8874b19a49ece27d142d3b36.jpg_720x720q50.jpg",
@@ -119,6 +126,7 @@ export const products: Product[] = [
     id: "17",
     title: "Ladies Ribbed Crop and Pants Set",
     price: 29.95,
+    priceInCents: 2995,
     description:
       "Women 2 Piece Sets Winter 2025 Women's Clothing Women Clothes Custom Ladies Ribbed Crop and Pants Set",
     category: "cloth",
@@ -137,6 +145,7 @@ export const products: Product[] = [
     id: "12",
     title: "Men's Fashion",
     price: 5.8,
+    priceInCents: 580,
     description: "Men's Fashion Trak Suite Winter best collection",
     category: "cloth",
     image: "https://s.alicdn.com/@sc04/kf/H7fa61bad64da4abaa4ce1a5d3d02d8baF.jpg_720x720q50.jpg",
@@ -153,6 +162,7 @@ export const products: Product[] = [
     id: "2",
     title: "for samsung Galaxy S24 Ultra",
     price: 495,
+    priceInCents: 49500,
     description:
       "Original for samsung Galaxy S24 Ultra Unlocked Used Smart Mobile phone for Samusng Galaxy S24 Original Android Cell Phones",
     category: "phone",
@@ -171,6 +181,7 @@ export const products: Product[] = [
     id: "14",
     title: "T Shirts",
     price: 2.5,
+    priceInCents: 250,
     description:
       "Custom logo Printing Running T-shirt Short-sleeved Clothes Tops Gym Wear Fitted Sport Tshirt for Man Women",
     category: "cloth",
@@ -189,6 +200,7 @@ export const products: Product[] = [
     id: "26",
     title: "Headphones for Computer",
     price: 2.4,
+    priceInCents: 240,
     description:
       "JERTECH HG01 Wholesale Electronic Product Wired 3.5 USB Gamer Headset with MIC RGB HIFI PC Gaming Headphones for Computer",
     category: "electronics",
@@ -206,6 +218,7 @@ export const products: Product[] = [
     id: "3",
     title: "Oppo Find X8 Ultra Snapdragon",
     price: 225,
+    priceInCents: 22500,
     description:
       "Original Oppo Find X8 Ultra Snapdragon 8 Elite 50MP OIS 6100mAh 100W Supervooc 50W Wireless 6.82 Inch AMOLED 120Hz NFC",
     category: "phone",
@@ -224,6 +237,7 @@ export const products: Product[] = [
     id: "4",
     title: "Infinix 8 Hot Selling S24",
     price: 345,
+    priceInCents: 34500,
     description:
       "UK Opp Infinix 8 Hot Selling S24 Ultra Android Cell Smartphone Unlocked Gaming Phones Smart Mobile phone",
     category: "phone",
@@ -242,6 +256,7 @@ export const products: Product[] = [
     id: "21",
     title: "Men's shoes Popcorn",
     price: 13,
+    priceInCents: 1300,
     description: "Hongyan Men's shoes Popcorn New Running shoes Breathable Mesh Surface Sports Casual shoes",
     category: "shoes",
     image: "https://s.alicdn.com/@sc04/kf/Hb623bcebea264dcfaaf95f89a2651b8b3.jpg_720x720q50.jpg",
@@ -258,6 +273,7 @@ export const products: Product[] = [
     id: "37",
     title: "Man Leather 40mm Quartz Men's Wristwatch",
     price: 1.55,
+    priceInCents: 155,
     description:
       "New Fashion Men Watch Waterproof Luminous Sports Date Luxury Watches Man Leather 40mm Quartz Men's Wristwatch",
     category: "watch",
@@ -275,6 +291,7 @@ export const products: Product[] = [
     id: "7",
     title: "Redmi Turbo 4",
     price: 280,
+    priceInCents: 28000,
     description:
       "Wholesale Price Chinese Brand Android 5G Smartphone for Redmi Turbo 4 phone Original Brand New Turbo 4 phone",
     category: "phone",
@@ -293,6 +310,7 @@ export const products: Product[] = [
     id: "8",
     title: "Realme 11 Pro+",
     price: 343.2,
+    priceInCents: 34320,
     description:
       "Original Realme 11 Pro+ 5G,12GB+256GB 200MP Camera 5000mAh 6.7 Inch Realme UI 4.0 Android 13 Dimensity 7050 Flagship Octa Core",
     category: "phone",
@@ -311,6 +329,7 @@ export const products: Product[] = [
     id: "10",
     title: "Original Vivo X200",
     price: 29.95,
+    priceInCents: 2995,
     description:
       "Original Vivo X200 50MP Camera 6.67 AMOLED 120HZ Dimensity 9400 OTA 5800mAh Battery 50MP Camera Android 15 5G Smart phone",
     category: "phone",
@@ -329,6 +348,7 @@ export const products: Product[] = [
     id: "5",
     title: "Original Camon 40 Pro Power Techno",
     price: 234,
+    priceInCents: 23400,
     description:
       "Original Camon 40 Pro Power Techno 1TB Camon40 Pro Octa-core 6.2inch 12+256GB/512GB 5G Smartphones 6800mAh 108MP Mobile phone",
     category: "phone",
@@ -347,6 +367,7 @@ export const products: Product[] = [
     id: "11",
     title: "T Shirts",
     price: 29.95,
+    priceInCents: 2995,
     description:
       "Wholesale High Quality 100% Cotton Men's Plain T-shirts Tee Shirt Custom Logo Print Blank Factory Price US Size T Shirts",
     category: "cloth",
@@ -364,6 +385,7 @@ export const products: Product[] = [
     id: "36",
     title: "2PCS Set of Luxury and Fashionable Men's Watche",
     price: 1.89,
+    priceInCents: 189,
     description: "2PCS Set of Luxury and Fashionable Men's Watche, Men's Business Quartz Watche, Bracelet",
     category: "watch",
     image: "https://s.alicdn.com/@sc04/kf/H31b8269eb57b405587f70ec23d977cf6Q.jpg_720x720q50.jpg",
@@ -380,6 +402,7 @@ export const products: Product[] = [
     id: "16",
     title: "Jacket Men",
     price: 12.5,
+    priceInCents: 1250,
     description:
       "2025 High Quality Custom Men's Clothes Fall Winter Men's Jacket Windproof Autumn Long Sleeve Casual Plus Size Men's Jackets",
     category: "cloth",
@@ -398,6 +421,7 @@ export const products: Product[] = [
     id: "9",
     title: "Nokia 106",
     price: 9.2,
+    priceInCents: 920,
     description:
       "Factory Unlocked 1.77 Inch Display 106 Feature phone MP3 MP4 FM Radio Cheap 2G BarMobile phone for Nokia 106 105 Cellphone",
     category: "phone",
@@ -416,6 +440,7 @@ export const products: Product[] = [
     id: "19",
     title: "Women's 2 Piece Sets Casual T-Shirts & Short",
     price: 11,
+    priceInCents: 1100,
     description: "Women's 2 Piece Sets Casual T-Shirts & Short Workout Suit Women Short Sets Women Two Piece Set",
     category: "cloth",
     image: "https://s.alicdn.com/@sc04/kf/A5fa84011fb614b19811a2edc66fccd90C.jpg_720x720q50.jpg",
@@ -433,6 +458,7 @@ export const products: Product[] = [
     id: "20",
     title: "Asserted Colors Hotsale Polo T-shirt",
     price: 4.45,
+    priceInCents: 445,
     description: "2024 Asserted Colors Hotsale Polo T-shirt Short Sleeve Loose Polo Shirts for Men",
     category: "cloth",
     image: "https://s.alicdn.com/@sc04/kf/H86ed5cb056e04efead5e3864d57b57d12.jpg_720x720q50.jpg",
@@ -450,6 +476,7 @@ export const products: Product[] = [
     id: "23",
     title: "Sports shoes",
     price: 29,
+    priceInCents: 2900,
     description:
       "Sports shoes for Men New Fashion Trend Couple Walking shoes Women's Comfortable Breathable Chunky Casual shoes",
     category: "shoes",
